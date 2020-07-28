@@ -1,17 +1,146 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-title>
+            Estudios
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+    <ion-card>
+        <img src="assets/img/foto.jpg" />
+        <ion-card-header>
+            <ion-card-subtitle>Axel Abel Tuchez López</ion-card-subtitle>
+            <ion-card-title>20-C</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+            Esta es una aplicación demostrativa de como usar ionic, agregando diseño y como se manipulan los componentes iniciales de este framework, en una aplicaión híbrida.
+        </ion-card-content>
+    </ion-card>
+
+    <!-- List of Sliding Items -->
+    <ion-list>
+        <!--Begin Item-->>
+        <ion-item-sliding>
+            <ion-item>
+                <ion-icon name="logo-rss"></ion-icon>
+                <ion-label>......Curso de Redes de Internet</ion-label>
+            </ion-item>
+            <ion-item-options side="end">
+                <ion-item-option (click)="unread(item)">leer</ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!--End Item-->
+
+        <!--Begin Item-->>
+        <ion-item-sliding>
+            <ion-item>
+                <ion-icon name="logo-github"></ion-icon>
+                <ion-label>......Curso Profesional de Git y GitHub</ion-label>
+            </ion-item>
+            <ion-item-options side="end">
+                <ion-item-option (click)="unread(item)">leer</ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!--End Item-->
+
+        <!--Begin Item-->>
+        <ion-item-sliding>
+            <ion-item>
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <ion-label>......Curso de Whatsapp Business</ion-label>
+            </ion-item>
+            <ion-item-options side="end">
+                <ion-item-option (click)="unread(item)">leer</ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!--End Item-->
+
+        <!--Begin Item-->>
+        <ion-item-sliding>
+            <ion-item>
+                <ion-icon name="logo-firebase"></ion-icon>
+                <ion-label>......Curso de Firestore para Android</ion-label>
+            </ion-item>
+            <ion-item-options side="end">
+                <ion-item-option (click)="unread(item)">leer</ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!--End Item-->
+
+        <!--Begin Item-->>
+        <ion-item-sliding>
+            <ion-item>
+                <ion-icon name="logo-xing"></ion-icon>
+                <ion-label>......Curso Básico de Kotlin</ion-label>
+            </ion-item>
+            <ion-item-options side="end">
+                <ion-item-option (click)="unread(item)">leer</ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!--End Item-->
+
+        <!--Begin Item-->>
+        <ion-item-sliding>
+            <ion-item>
+                <ion-icon name="logo-android"></ion-icon>
+                <ion-label>......Curso de Bases Técnicos de Android</ion-label>
+            </ion-item>
+            <ion-item-options side="end">
+                <ion-item-option (click)="unread(item)">leer</ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!--End Item-->
+
+        <!--Begin Item-->>
+        <ion-item-sliding>
+            <ion-item>
+                <ion-icon name="logo-css3"></ion-icon>
+                <ion-label>......Curso de Introducción al Desarrollo de Interfaces con Android Studio</ion-label>
+            </ion-item>
+            <ion-item-options side="end">
+                <ion-item-option (click)="unread(item)">leer</ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!--End Item-->
+
+        <!--Begin Item-->>
+        <ion-item-sliding>
+            <ion-item>
+                <ion-icon name="logo-android"></ion-icon>
+                <ion-label>......Curso de Kotlin para Android</ion-label>
+            </ion-item>
+            <ion-item-options side="end">
+                <ion-item-option (click)="unread(item)">leer</ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!--End Item-->
+
+        <!--Begin Item-->>
+        <ion-item-sliding>
+            <ion-item>
+                <ion-icon name="calculator-outline"></ion-icon>
+                <ion-label>......Fundamentos de Matemáticas para Física</ion-label>
+            </ion-item>
+            <ion-item-options side="end">
+                <ion-item-option (click)="unread(item)">leer</ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!--End Item-->
+
+        <!--Begin Item-->>
+        <ion-item-sliding>
+            <ion-item>
+                <ion-icon name="flask-outline"></ion-icon>
+                <ion-label>......IES</ion-label>
+            </ion-item>
+            <ion-item-options side="end">
+                <ion-item-option (click)="unread(item)">leer</ion-item-option>
+            </ion-item-options>
+        </ion-item-sliding>
+        <!--End Item-->
+
+    </ion-list>
 </ion-content>
